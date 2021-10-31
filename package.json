@@ -1,0 +1,12 @@
+{
+  "name": "quasar-monorepo",
+  "version": "1.0.0",
+  "description": "A boilerplate project for handling quasar projects",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "libs/*"
+    ]
+  }
+}

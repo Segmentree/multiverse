@@ -1,0 +1,7 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "module with auth reusable parts",
+  "main": "index.ts",
+  "license": "MIT"
+}

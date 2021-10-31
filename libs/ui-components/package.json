@@ -1,0 +1,7 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "reuseable components library",
+  "main": "index.ts",
+  "license": "MIT"
+}
