@@ -8,5 +8,14 @@
   "private": true,
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "dependencies": {
+    "@quasar/cli": "^1.2.2"
+  },
+  "scripts": {
+    "app1": "yarn workspace app1 quasar dev",
+    "app2": "yarn workspace app2 quasar dev",
+    "app3": "yarn workspace app3 quasar dev",
+    "create-app": "cd apps && quasar create"
+  }
 }
