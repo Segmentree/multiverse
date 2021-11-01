@@ -1,0 +1,9 @@
+{
+  "name": "multiverse",
+  "version": "1.0.0",
+  "description": "yarn workspace based monorepo",
+  "main": "index.js",
+  "repository": "git@github.com:Segmentree/multiverse.git",
+  "license": "MIT",
+  "private": true
+}
