@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:Segmentree/multiverse.git",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
 }
