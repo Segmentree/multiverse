@@ -15,7 +15,9 @@ fs.readFile(JSON_FILE, 'utf8', (e, jsonString) => {
         console.log('File write failed with error: ' + e);
         return;
       }
-      console.log('Successfully wrote json file: ' + JSON_FILE);
+      console.log(
+        'Now you can run your application with "yarn ' + APP_NAME + ' "'
+      );
     });
   } catch (e) {
     console.log('There was an error parsing the JSON string: ' + e);

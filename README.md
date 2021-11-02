@@ -6,4 +6,4 @@ a yarn workspace based monorepo
 
 run an app: `yarn ${app_name}`
 
-create an app: `yarn create-app ${app_name}`
+create an app: `NAME=${app_name} yarn create-app` this command generate the run command for the new app at the end of the process.
