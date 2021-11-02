@@ -1,0 +1,22 @@
+{
+  "name": "multiverse",
+  "version": "1.0.0",
+  "description": "yarn workspace based monorepo",
+  "main": "index.js",
+  "repository": "git@github.com:Segmentree/multiverse.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "@quasar/cli": "^1.2.2"
+  },
+  "scripts": {
+    "create-app": "cd apps && quasar create $NAME && cd .. && node ./scripts/update_package.json.js $NAME",
+    "app1": "yarn workspace app1 quasar dev",
+    "app2": "yarn workspace app2 quasar dev",
+    "app3": "yarn workspace app3 quasar dev",
+    "app4": "yarn workspace app4 quasar dev"
+  }
+}
