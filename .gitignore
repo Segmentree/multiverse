@@ -106,3 +106,7 @@ dist
 # Apps
 apps/*
 !apps/README.md
+
+
+# OS files
+.DS_Store
